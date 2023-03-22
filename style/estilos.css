@@ -150,7 +150,12 @@ ul li {
     }
 }
 
-
+@media only screen and (min-width: 200px) and (max-width: 799px) {
+    .stand-gif {
+        height: 300px;
+        width: 400px;
+    }
+}
 
 
 @media only screen and (min-width: 728px) and (max-width: 977px) {
@@ -218,10 +223,11 @@ ul {
     text-align: center;
 }
 
-.habilidades-joestar {
+.habilidades-joestar p {
     font-family: 'PT Sans', sans-serif;
     font-weight: bolder;
     font-size: 32px;
+    border-bottom: 1px #000;
 }
 
 .habilidades-dio {
@@ -250,6 +256,7 @@ ul {
 
 .villanos-carrusel h2 {
     color: #FFF;
+    padding-top: 40px;
 }
 
 .carousel-item img {
@@ -268,6 +275,8 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 40px;
+    padding-right: 15px;
 }
 .contenido-centrado h2{
     text-align: center;
@@ -275,4 +284,17 @@ ul {
 
 .titulo-principal{
     margin-bottom: 80px;
+}
+
+.habilidades-joestar h4{
+    font-weight: bolder;
+} 
+
+.jojo-stand{
+    font-weight: bolder;
+}
+
+.contenido-centrado h3{
+    text-align: center;
+    padding-top: 40px;
 }
