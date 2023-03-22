@@ -50,14 +50,16 @@ h3 {
     font-size: 17px;
     margin-bottom: 0px;
     text-align: center;
+    color: #FFF;
 }
 
 body {
-    background-color: #FFF4E0;
+    background-color: #f1f1f1;
+    
 }
 
 footer {
-    background-color: #B46060;
+    background-color: #070606;
     margin-top: 50px;
     text-align: center;
     padding-top: 20px;
@@ -298,3 +300,4 @@ ul {
     text-align: center;
     padding-top: 40px;
 }
+
