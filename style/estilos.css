@@ -42,7 +42,7 @@ h3 {
 }
 
 .texto-shadow{
-    background-image: linear-gradient(rgb(32, 3, 32), rgb(3, 3, 3));
+    background-image: linear-gradient(rgb(66, 7, 66), rgb(3, 3, 3));
 }
 
 .stand-world:hover{
@@ -63,11 +63,11 @@ h3 {
 }
 
 .facebook-icon{
-    height: 5%;
+    width: 50px;
 }
 
 .twitter-icon{
-    width: 5px;
+    width: 50px;
 }
 
 body {
@@ -159,6 +159,95 @@ ul li {
 
 
 
+.jotaros-stands-1{
+    width: 350px;
+}
+
+.jotaros-stands-2{
+    width: 300px;
+}
+
+.jotaros-stands-3{
+    width: 390px;
+}
+
+.jotaros-stands-4{
+    width: 350px;
+}
+
+.jotaros-stands-5{
+    width: 370px;
+}
+
+.jotaros-stands-6{
+    width: 400px;
+    height: 300px;
+}
+
+.personajes-principales-1{
+    width: 180px;
+}
+
+.personajes-principales-2{
+    width: 290px;
+}
+
+.personajes-principales-3{
+    width: 450px;
+}
+
+.personajes-principales-4{
+    width: 500px;
+}
+
+.personajes-principales-5{
+    width: 470px;
+}
+
+.personajes-principales-6{
+    width: 300px;
+}
+
+
+
+
+.dios-villanos-1{
+    width: 250px;
+}
+
+.dios-villanos-2{
+    width: 180px;
+}
+
+.dios-villanos-3{
+    width: 400px;
+}
+
+.dios-villanos-4{
+    width: 452px;
+}
+
+.dios-stands-1{
+    width: 250px;
+}
+
+
+.dios-stands-2{
+    width: 400px;
+}
+
+.dios-stands-3{
+    width: 400px;
+}
+
+.dios-stands-4{
+    width: 450px;
+    height: 370px;
+}
+
+
+
+
 .contenedor-padre {
     margin-top: 30px;
     border: 3px solid #000000;
@@ -180,6 +269,10 @@ ul li {
     float: left;
     height: 100%;
 
+}
+
+.container-fluid{
+    background-image: linear-gradient(to bottom, rgb(117, 117, 117), black);
 }
 
 .contenedor-hijo-2 {
@@ -259,6 +352,10 @@ ul {
     margin-bottom: 10px;
 }
 
+.stand-arrow{
+    width: 400px;
+}
+
 .contenido-centrado img{
     display: block;
     margin-left: auto;
@@ -287,6 +384,9 @@ ul {
     padding-top: 40px;
 }
 
+.stand-gif{
+    width: 570px;
+}
 
 .texto-descripcion{
     background-color: #ffffff;
