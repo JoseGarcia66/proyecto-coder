@@ -1,0 +1,61 @@
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    text-align: center;
+    line-height: 42px;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 44px;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    line-height: 52px;
+
+}
+
+.texto-principal {
+
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 30px;
+}
+.texto-principal-historia {
+    margin-top: 50px;
+    border: 1px solid #000;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.texto-descripcion{
+    background-color: #ffffff;
+}
+
+@media only screen and (min-width: 1100px){
+    .texto-descripcion{
+        margin-top: 40px;
+        
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .texto-descripcion{
+        border-bottom: 1px solid #000;
+        margin-bottom: 60px;
+    }
+}

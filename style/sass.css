@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+body {
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  background: radial-gradient(transparent 79%, rgba(5, 5, 6, 0.062745098) 80%);
+  background-size: 2em 2em;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+footer {
+  background-color: #070606;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  background-image: linear-gradient(to top, rgb(80, 0, 104), rgb(32, 31, 31));
+}
+
+.facebook-icon {
+  width: 50px;
+}
+
+.twitter-icon {
+  width: 50px;
+}
+
+.navbar {
+  margin-bottom: 10px;
+  background-image: linear-gradient(to top, rgb(80, 0, 104), rgb(32, 31, 31));
+}
+
+.texto-footer {
+  font-size: 17px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #FFF;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+ul li {
+  padding: 0px 0px 0px 20px;
+}
+
+/*ul li {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
+}*/
+p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+  line-height: 42px;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 44px;
+}
+
+h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+h1 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+  line-height: 52px;
+}
+
+.texto-principal {
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 30px;
+}
+
+.texto-principal-historia {
+  margin-top: 50px;
+  border: 1px solid #000;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.texto-descripcion {
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 1100px) {
+  .texto-descripcion {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .texto-descripcion {
+    border-bottom: 1px solid #000;
+    margin-bottom: 60px;
+  }
+}
+.lista-menu a {
+  color: #FFF;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.banner {
+  margin-top: -10px;
+  width: 100%;
+  height: 40vh;
+  background-image: url(../imagenes/banner-prueba.jpg);
+  background-size: cover;
+  color: #FFF;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.principal-personajes {
+  text-transform: capitalize;
+}
+.principal-personajes:hover {
+  transform: rotate(-350deg);
+  text-shadow: 1px 1px 2px rgb(100, 3, 255), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.principal-villanos {
+  text-transform: capitalize;
+}
+.principal-villanos:hover {
+  text-shadow: 1px 1px 2px rgb(153, 6, 6), 0 0 1em rgb(163, 0, 0), 0 0 0.2em rgb(99, 1, 1);
+}
+
+.villanos-jojo {
+  text-shadow: 1px 1px 2px rgb(153, 6, 6), 0 0 1em rgb(163, 0, 0), 0 0 0.2em rgb(99, 1, 1);
+}
+
+.secundarios {
+  text-shadow: 1px 1px 2px rgb(153, 6, 6), 0 0 1em rgb(163, 0, 0), 0 0 0.2em rgb(99, 1, 1);
+}
+
+.heroes-jojo {
+  text-shadow: 1px 1px 2px rgb(100, 3, 255), 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.stand-world:hover {
+  transform: rotate(350deg);
+}
+
+.img {
+  margin: 0px auto;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.main-section {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+}
+
+.imagen-principal {
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 50px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.video-trailer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.reproductor {
+  height: 300px;
+  width: 600px;
+}
+
+.jotaros-stands-1 {
+  width: 350px;
+}
+
+.jotaros-stands-2 {
+  width: 300px;
+}
+
+.jotaros-stands-3 {
+  width: 390px;
+}
+
+.jotaros-stands-4 {
+  width: 350px;
+}
+
+.jotaros-stands-5 {
+  width: 370px;
+}
+
+.jotaros-stands-6 {
+  width: 400px;
+  height: 300px;
+}
+
+.personajes-principales-1 {
+  width: 180px;
+}
+
+.personajes-principales-2 {
+  width: 290px;
+}
+
+.personajes-principales-3 {
+  width: 450px;
+}
+
+.personajes-principales-4 {
+  width: 500px;
+}
+
+.personajes-principales-5 {
+  width: 470px;
+}
+
+.personajes-principales-6 {
+  width: 300px;
+}
+
+.dios-villanos-1 {
+  width: 250px;
+}
+
+.dios-villanos-2 {
+  width: 180px;
+}
+
+.dios-villanos-3 {
+  width: 400px;
+}
+
+.dios-villanos-4 {
+  width: 452px;
+}
+
+.dios-stands-1 {
+  width: 250px;
+}
+
+.dios-stands-2 {
+  width: 400px;
+}
+
+.dios-stands-3 {
+  width: 400px;
+}
+
+.dios-stands-4 {
+  width: 450px;
+  height: 370px;
+}
+
+.contenedor-padre {
+  margin-top: 30px;
+  border: 3px solid #000000;
+  padding: 20px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.contenedor-padre-habilidades {
+  margin-top: 30px;
+  border: 3px solid #000000;
+  padding: 20px;
+  height: 670px;
+  border-radius: 20px;
+}
+
+.contenedor-hijo {
+  width: 25%;
+  float: left;
+  height: 100%;
+}
+
+.container-fluid {
+  background-image: linear-gradient(to top, rgb(80, 0, 104), rgb(32, 31, 31));
+}
+
+.contenedor-hijo-2 {
+  padding-top: 10vh;
+  width: 74%;
+  float: right;
+}
+
+.villanos-carrusel {
+  text-align: center;
+  background-color: #212529;
+  margin-top: 20px;
+}
+
+.stand-prueba {
+  text-align: center;
+}
+
+.stand-manera {
+  text-align: center;
+}
+
+.habilidades-joestar p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  border-bottom: 1px #000;
+}
+
+.habilidades-dio {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.lista-joestar {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 29px;
+}
+
+.habilidad-tiempo {
+  font-family: "PT Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.carousel-control-next-icon {
+  color: #000;
+}
+
+.villanos-carrusel h2 {
+  color: #FFF;
+  padding-top: 40px;
+}
+
+.carousel-item img {
+  display: inline-block !important;
+}
+
+.carousel-caption {
+  background-color: rgba(61, 61, 61, 0.7058823529);
+}
+
+.stand-arrow {
+  width: 400px;
+}
+
+.contenido-centrado img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-right: 15px;
+}
+
+.contenido-centrado h2 {
+  text-align: center;
+}
+
+.titulo-principal {
+  margin-bottom: 80px;
+}
+
+.habilidades-joestar h4 {
+  font-weight: bolder;
+}
+
+.jojo-stand {
+  font-weight: bolder;
+}
+
+.contenido-centrado h3 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.stand-gif {
+  width: 570px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 799px) {
+  .reproductor {
+    height: 300px;
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 799px) {
+  .stand-gif {
+    height: 300px;
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 728px) and (max-width: 977px) {
+  .contenedor-hijo-2 p {
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 914px) {
+  .contenedor-hijo-2 p {
+    font-size: smaller;
+  }
+}/*# sourceMappingURL=sass.css.map */
